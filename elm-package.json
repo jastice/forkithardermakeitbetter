@@ -1,12 +1,14 @@
 {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "summary": "fork it harder",
     "repository": "https://github.com/jastice/forkithardermakeitbetter.git",
     "license": "BSD3",
     "source-directories": [
         "."
     ],
-    "exposed-modules": ["Forkit"],
+    "exposed-modules": [
+        "Forkit"
+    ],
     "dependencies": {
         "elm-lang/core": "5.1.1 <= v < 6.0.0",
         "elm-lang/html": "2.0.0 <= v < 3.0.0"
